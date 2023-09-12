@@ -21,22 +21,9 @@ public final class Constants {
   public static final class DriveTrainConstants{
     public static final int leftMotor1ID = 11; //IDs for the Left and Right motors
     public static final int leftMotor2ID = 12;
-    public static final int leftMotor3ID = 13;
     public static final int rightMotor1ID = 21;
     public static final int rightMotor2ID = 22;
-    public static final int rightMotor3ID = 23;
     public static final int maxVoltage = 8; //If issues arise from recent upgrade, blame this.
-  }
-  public static final class IntakeConstants{
-    public static final int intakeMotor1ID = 41;
-    public static final int intakeMotor2ID = 42;
-    public static final double outakeSpeed = 1.00; //0=0%, 1=100%. 
-  }
-  public static final class MoveArmConstants{
-    public static final int ArmMotorID = 51;
-    public static final double armkP = 0.03;
-    public static final double armkI = 0.00;
-    public static final double armkD = 0.00;
   }
   public static final class AutonStuff{
     public static final PIDConstants AUTO_TRANSLATION_CONSTANTS = new PIDConstants(0, 0, 0);
